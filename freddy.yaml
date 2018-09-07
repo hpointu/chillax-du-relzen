@@ -1,0 +1,146 @@
+colours:
+ - &white [231, '#ffffff']
+ - &black [231, '#000000']
+ - &grey [240, '#585858']
+ - &red [160, '#d70000']
+ - &flashygreen [48, '#00ff87']
+ - &green [76, '#5fd700']
+ - &darkgreen [64, '#5f8700']
+ - &blue [38, '#00afd7']
+ - &darkblue [25, '#005faf']
+ - &yellow [214, '#ffaf00']
+ - &darkyellow [172, '#d78700']
+ - &darkpurple [131, '#af5f5f']
+ - &purple [206, '#ff5fd7']
+
+scheme:
+ Normal          : [*white, ~, ~]
+ Cursor          : [*white, ~, ~]
+ CursorLine      : [*white, ~, ~]
+ LineNr          : [*white, ~, ~]
+ CursorLineNR    : [*white, ~, ~]
+
+#----------------
+# Number column -
+#----------------
+ CursorColumn    : [*white, ~, ~]
+ FoldColumn      : [*green, *black, ~]
+ SignColumn      : [*white, *black, ~]
+ Folded          : [*green, *black, ~]
+
+#----------------
+# Window/Tab deli
+#----------------
+ VertSplit       : [*white, ~, ~]
+ ColorColumn     : [*white, ~, ~]
+ TabLine         : [*white, ~, ~]
+ TabLineFill     : [*white, ~, ~]
+ TabLineSel      : [*white, ~, ~]
+
+#----------------
+# File Navigation
+#----------------
+ Directory       : [*white, ~, ~]
+ Search          : [*black, *darkyellow, ~]
+ IncSearch          : [*black, *darkyellow, ~]
+
+#----------------
+# Prompt/Status -
+#----------------
+ StatusLine      : [*white, ~, ~]
+ StatusLineNC    : [*white, ~, ~]
+ WildMenu        : [*white, ~, ~]
+ Question        : [*white, ~, ~]
+ Title           : [*white, ~, ~]
+ ModeMsg         : [*white, ~, ~]
+ MoreMsg         : [*white, ~, ~]
+
+#-------------
+# Visual aid -
+#-------------
+ MatchParen      : [*white, ~, ~]
+ Visual          : [*white, ~, ~]
+ VisualNOS       : [*white, ~, ~]
+ NonText         : [*white, ~, ~]
+
+ Todo            : [*black, *yellow, ~]
+ Underlined      : [*white, ~, ~]
+ Error           : [*red, *black, bold]
+ ErrorMsg        : [~, ~, underline]
+ WarningMsg      : [*white, ~, ~]
+ Ignore          : [*white, ~, ~]
+ SpecialKey      : [*white, ~, ~]
+
+#----------------
+#Variable types
+#----------------
+ Constant        : [*white, ~, ~]
+ String          : [*darkpurple, ~, ~]
+ StringDelimiter : [*white, ~, ~]
+ Character       : [*white, ~, ~]
+ Number          : [*flashygreen, ~, ~]
+ Boolean         : [*white, ~, ~]
+ Float           : [*white, ~, ~]
+
+ Identifier      : [*yellow, ~, NONE]
+ Function        : [*blue, ~, ~]
+
+#----------------
+# Language construc
+#----------------
+ Statement       : [*green, ~, ~]
+ Conditional     : [*yellow, ~, ~]
+ Repeat          : [*yellow, ~, ~]
+ Label           : [*yellow, ~, ~]
+ Operator        : [*purple, ~, ~]
+ Keyword         : [*yellow, ~, ~]
+ Exception       : [*purple, ~, ~]
+ Comment         : [*darkgreen, ~, ~]
+
+ Special         : [*white, ~, ~]
+ SpecialChar     : [*white, ~, ~]
+ Tag             : [*white, ~, ~]
+ Delimiter       : [*white, ~, ~]
+ SpecialComment  : [*white, ~, ~]
+ Debug           : [*white, ~, ~]
+
+#---------
+# C like -
+#---------
+ PreProc         : [*blue, ~, ~]
+ Include         : [*blue, ~, ~]
+ Define          : [*blue, ~, ~]
+ Macro           : [*blue, ~, ~]
+ PreCondit       : [*white, ~, ~]
+
+ Type            : [*darkgreen, ~, ~]
+ StorageClass    : [*darkgreen, ~, ~]
+ Structure       : [*darkyellow, ~, ~]
+ Typedef         : [*darkgreen, ~, ~]
+
+#----------------
+# Diff
+#----------------
+ DiffAdd         : [*white, ~, ~]
+ DiffChange      : [*white, ~, ~]
+ DiffDelete      : [*white, ~, ~]
+ DiffText        : [*white, ~, ~]
+
+#----------------
+# Completion menu
+#----------------
+ Pmenu           : [*white, *grey, ~]
+ PmenuSel        : [*white, ~, ~]
+ PmenuSbar       : [*white, ~, ~]
+ PmenuThumb      : [*white, ~, ~]
+
+#----------------
+# Spelling
+#----------------
+ SpellBad        : [*red, *black, underline]
+ SpellCap        : [*yellow, ~, ~]
+ SpellLocal      : [*green, ~, ~]
+ SpellRare       : [*blue, ~, ~]
+
+ # Python specifics
+ pythonBuiltin   : [*darkblue, ~, ~]
