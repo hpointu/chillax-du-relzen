@@ -1,10 +1,11 @@
 colours:
- - &white [231, '#ffffff']
- - &black [231, '#000000']
+ - &white [231, '#eeeeee']
+ - &black [16, '#000000']
  - &grey [240, '#585858']
  - &red [160, '#d70000']
  - &flashygreen [48, '#00ff87']
  - &orange [208, '#ff8700']
+ - &lightorange [214, '#ffaf00']
  - &green [76, '#5fd700']
  - &darkgreen [64, '#5f8700']
  - &blue [38, '#00afd7']
@@ -144,4 +145,4 @@ scheme:
  SpellRare       : [*blue, ~, ~]
 
  # Python specifics
- pythonBuiltin   : [*darkblue, ~, ~]
+ pythonBuiltin   : [*lightorange, ~, ~]
