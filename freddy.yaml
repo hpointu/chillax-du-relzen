@@ -16,7 +16,7 @@ colours:
  - &purple [206, '#ff5fd7']
 
 scheme:
- Normal          : [*white, ~, ~]
+ Normal          : [*white, *black, ~]
  Cursor          : [*white, ~, ~]
  CursorLine      : [*white, ~, ~]
  LineNr          : [*white, ~, ~]
