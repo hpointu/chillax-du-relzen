@@ -82,4 +82,5 @@ if __name__ == "__main__":
         conf = yaml.load(open(sys.argv[1]))
     except IndexError:
         print("Give me something, can't read your mind.")
+        sys.exit(-1)
     make(create_palette(conf))

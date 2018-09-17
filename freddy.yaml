@@ -123,10 +123,12 @@ scheme:
 #----------------
 # Diff
 #----------------
- DiffAdd         : [*white, ~, ~]
+ diffAdded       : [*flashygreen, ~, ~]
+ diffRemoved     : [*red, ~, ~]
+ DiffAdd         : [*green, ~, ~]
  DiffChange      : [*white, ~, ~]
- DiffDelete      : [*white, ~, ~]
- DiffText        : [*white, ~, ~]
+ DiffDelete      : [*red, ~, ~]
+ DiffText        : [*yellow, ~, ~]
 
 #----------------
 # Completion menu
